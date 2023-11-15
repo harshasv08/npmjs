@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style/reg.css">
+    <title>npm | Sign Up</title>
+    <link data-react-helmet="true" rel="icon" type="image/png"
+        href="https://static-production.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png" sizes="32x32">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="g"></div>
+    <div>
+        <center>
+            <a href="/index.html"><img src="/img/logo-removebg.png" alt="log"></a>
+            <form action="/action_page.php" method="post">
+
+                <div class="container">
+                    <h2>Sign Up</h2>
+                    <hr style="margin-bottom: 20px;">
+                    <label for="uname"><b>Username *</b></label>
+                    <input type="text" placeholder="" name="uname" required>
+
+                    <label for="email"><b>Email Address</b></label>
+                    <input type="email" placeholder="" name="email" required>
+                    <p class="sm">Your email address will be added to the metadata of packages that you publish, so it
+                        may be seen publicly.</p><br>
+
+                    <label for="psw"><b>Password</b></label>
+                    <div id="ww">
+
+                        <input type="password" placeholder="" name="psw" id="pws1" required>
+                        <span class="verticalLine"></span>
+                        <button type="button" id="shw" aria-label="Show password">
+                            Show
+                        </button>
+                        <p class="sm" style="margin-bottom: 20px;">Minimum of 10 characters and must meet our <a
+                                href="#">password guidelines</a></p>
+                    </div>
+                    <input type="checkbox" name="true" id="agg">
+                    <label for="agg">I agree to the <a href="#">End User License Agreement </a> and the <a
+                            href="#">Privacy Policy</a>. *</label>
+
+                    <button type="submit" id="oo">Create an Account</button>
+
+                </div>
+
+                <p>Already have an account?</p><br>
+                <a href="/login.html" id="bl"><b>Sign In </b></a>
+            </form>
+
+        </center>
+
+    </div>
+
+
+</body>
+
+</html>

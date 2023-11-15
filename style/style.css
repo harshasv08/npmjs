@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.bg {
+    height: 140vh;
+    background: linear-gradient(270deg, rgba(176, 42, 42, .16) 0%, rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, .16) 99.73%), url("/img/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(158, 154, 154);
+}
+
+i:hover,
+#he:hover,
+li:hover {
+    color: #f2f2f2;
+}
+
+#g {
+    background: linear-gradient(290deg, rgb(237, 47, 209) 0%, rgb(233, 31, 31) 40.67%, rgb(246, 153, 3) 82.52%);
+    height: 9.5px;
+}
+
+#he {
+    margin-left: -18px;
+}
+
+#se,
+#nav {
+    background: white;
+}
+
+#se {
+    height: 58px;
+}
+
+#nav {
+    height: 88px;
+    margin-top: -1px;
+}
+
+hr {
+    margin: auto;
+
+}
+
+ul {
+    float: right;
+    margin-right: 50px;
+
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    letter-spacing: 0.015625em;
+    font-size: 14px;
+
+}
+
+#f {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+
+svg {
+    height: 70px;
+    width: 70px;
+    margin-left: -260px;
+    margin-top: 13px;
+}
+
+.s {
+
+    margin-top: -60px;
+    margin-left: 150px;
+}
+
+input {
+    height: 47px;
+    width: 132vh;
+    margin-left: -15px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+    font-size: medium;
+    padding-left: 20px;
+    border: none;
+    background-color: #f2f2f2;
+    font-style: Poppins, sans-serif;
+    color: 777777;
+}
+
+#reg {
+    float: right;
+    margin-top: -55px;
+    margin-right: 7px;
+    font-size: large;
+
+}
+
+button {
+    height: 50px;
+    width: 103px;
+}
+
+#k {
+    height: 53px;
+    width: 115px;
+    background: #231f20;
+    color: white;
+    margin-left: -4px;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+#b2 {
+    margin-top: 3px;
+    margin-left: -5px;
+    border: none;
+    background: white;
+    padding-right: 30px;
+}
+
+#b1 {
+    margin-top: 3px;
+    border: 0.5px solid rgb(208, 208, 208);
+    background: white;
+    padding: auto;
+}
+
+#e {
+    margin-top: -80vh;
+
+}
+
+#gg,
+#pp {
+    margin-top: 17vh;
+    color: #fff;
+    font-size: 85px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+
+}
+
+#pp {
+    font-size: medium;
+    margin-top: 0%;
+    line-height: 1.5;
+
+}
+
+#kk {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    padding: 3px;
+    font-size: 37px;
+    line-height: 1.25;
+
+
+}
+
+#bb {
+    margin-top: -40px;
+}
+
+.ll {
+    font-family: 'Poppins';
+    line-height: 1.25;
+    color: #333;
+}
+
+img[alt="icon"] {
+    height: 55px;
+    width: 75px;
+    margin-top: 40px;
+}
+
+table {
+    margin: auto;
+    margin-top: -130px;
+    margin-left: 205px;
+    padding-bottom: 60px;
+    text-align: left;
+    font-size: large;
+
+}
+
+.ww {
+
+    padding-right: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+#git {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#qq {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.tt {
+    padding-left: 50px;
+    font-family: Poppins, sans-serif;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pro {
+    line-height: 1.5;
+    border-radius: 80px;
+    width: 230px;
+    height: 55px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: 100px;
+}
+
+#btns {
+    margin-top: 67px;
+}
+
+#b3 {
+    background-color: #ffc329;
+    color: #000;
+    border: none;
+    margin-right: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+}
+
+#b4 {
+    background-color: #cb3837;
+    color: white;
+    border: 2px solid white;
+
+}
